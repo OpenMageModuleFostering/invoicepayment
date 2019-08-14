@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>InvoicePayment</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL-3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Stellt die Zahlungsm&#xF6;glichkeit "Rechnung" zur Verf&#xFC;gung. / Provides the payment method "invoice".</summary>
+    <description>Stellt die Zahlungsm&#xF6;glichkeit "Rechnung" zur Verf&#xFC;gung. / Provides the payment method "invoice".</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>Rouven Alexander Rieker</name><user>therouv</user><email>rouven.rieker@itabs.de</email></author></authors>
+    <date>2013-04-11</date>
+    <time>18:03:59</time>
+    <contents><target name="magecommunity"><dir name="Itabs"><dir name="Invoice"><dir name="Block"><file name="Form.php" hash="46793ee1f874920013b79123fe390b42"/><file name="Info.php" hash="b8243eb856c07c2d4182d857eff5532d"/></dir><dir name="Helper"><file name="Data.php" hash="9789edeee897dee54830470ab47e9ba7"/></dir><dir name="Model"><file name="Invoice.php" hash="5ccf732d65d716bb682ac32846af5e1c"/><file name="Observer.php" hash="f5088a104744e2f9dc423504798becbf"/><dir name="System"><dir name="Config"><dir name="Source"><dir name="Customer"><file name="Group.php" hash="364ea556644a107b4fc3523c89acf163"/></dir><dir name="Sales"><dir name="Invoice"><file name="State.php" hash="ecbac95ec623d694c7bbdd586d6131a5"/></dir></dir></dir></dir></dir><file name="Validation.php" hash="f80a2e74e1b7f908578fe59106f5c67c"/></dir><dir name="etc"><file name="config.xml" hash="b799356acb118fbc38c1ef66112900a7"/><file name="system.xml" hash="ebed835b4722d615b3404405724a6c2f"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Itabs_Invoice.xml" hash="c09d4bba821d276b47d3883ad889a8cc"/></dir></target><target name="magelocale"><dir name="de_DE"><file name="Itabs_Invoice.csv" hash="702589edf5ba0a4908cc3e9929a947e6"/></dir><dir name="en_US"><file name="Itabs_Invoice.csv" hash="d47d87074cf0853c8f6e66e80546e19a"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="invoice"><file name="form.phtml" hash="1d98451e78da725aebf7db99534aa9ea"/><file name="info.phtml" hash="85108bfe18dd1542a97953a3ea44bcc1"/><file name="pdf.phtml" hash="8fb295b0d72b21414b28cf46d25280ba"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="invoice"><file name="form.phtml" hash="1d98451e78da725aebf7db99534aa9ea"/><file name="info.phtml" hash="85108bfe18dd1542a97953a3ea44bcc1"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
