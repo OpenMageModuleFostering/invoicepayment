@@ -1,16 +1,5 @@
 {
-    "name": "OpenMageModuleFostering/InvoicePayment",
-    "type": "magento-module",
-    "license": "OSL-3.0",
-    "homepage": "",
-    "description": "Stellt die Zahlungsmöglichkeit "Rechnung" zur Verfügung. / Provides the payment method "invoice".",
-    "authors": [
-    {
-        "name": "Rouven Alexander Rieker",
-        "email": "rouven.rieker@itabs.de"
-    }
-],
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+    "keywords": [
+        "openmage-module"
+    ]
 }
